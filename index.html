@@ -172,7 +172,7 @@
         }));</script>
     <script>
         function fetchAndDownloadImage() {
-            fetch("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wE9R?ver=f584")
+            fetch("https://dev-nca-storage.s3.ap-northeast-2.amazonaws.com/abc/rendered/10000670711/2021/06/30/def8cd47-33f0-4b70-bedc-5a5e73b1d1e9")
                 .then(response => response.blob())
                 .then(images => {
                     const blobURL = URL.createObjectURL(images)
